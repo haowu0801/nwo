@@ -14,7 +14,7 @@
 13. After the job successfully completes, you can proceed to query the data in your MongoDB collection.
 
 ## Assumption & Explanation
-1. I used 1. I used MongoDB Atlas MongoDB Atlas to set up a local MongoDB instance. Additionally, I'm doing some research on deploying an instance via Docker and learning how to use the MongoDB Shell.
+1. I used MongoDB Atlas MongoDB Atlas to set up a local MongoDB instance. Additionally, I'm doing some research on deploying an instance via Docker and learning how to use the MongoDB Shell.
 2. This pipeline runs weekly, with the schedule_interval set for 12 PM every Sunday. It can be adjusted to run at any desired cadence.
 3. The downloadable URL for this pipeline is currently hardcoded. Ideally, it should be dynamically generated, especially if the URL contains a timestamp.
 4. The only transformation I performed was flattening the nested JSON structure. As I gain a deeper understanding of how the data is utilized, I expect to generate more ideas for additional transformations.
